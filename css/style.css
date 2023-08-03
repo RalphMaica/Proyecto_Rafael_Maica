@@ -42,6 +42,16 @@ ul{
   flex-direction: column;
   padding: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: rgb(255, 249, 242);
+}
+.blog-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-heading span{
+  color: #FF84FE;
 }
 
 /* contacto styles*/
@@ -102,25 +112,4 @@ ul{
   background-image: url(../img/background-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-/* blog styles */
-.mainBlog {
-  background-image: url(../img/background-image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-.articlesBlog {
-  display: inline-block;
-}
-.articlesBlog img {
-  width: 100px;
-  display: inline-block;
-  border-radius: 5%;
-}
-.articlesBlog a {
-  display: inline-block;
-}
-.articlesBlog p {
-  display: inline;
 }
