@@ -95,6 +95,10 @@ ul{
   font-weight: 500;
   color: #272727;
 }
+.blog-text .blog-title{
+  color: #FF84FE;
+  transition: all ease 0.3s;
+}
 
 /* contacto styles*/
 .form {
