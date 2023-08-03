@@ -81,6 +81,15 @@ ul{
   object-fit: cover;
   object-position: center;
 }
+.blog-text{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-text span{
+  color: #FF84FE;
+  font-size: 0.9rem;
+}
 /* contacto styles*/
 .form {
   width: 50%;
