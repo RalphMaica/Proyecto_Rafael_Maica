@@ -95,7 +95,7 @@ ul{
   font-weight: 500;
   color: #272727;
 }
-.blog-text .blog-title{
+.blog-text .blog-title:hover{
   color: #FF84FE;
   transition: all ease 0.3s;
 }
