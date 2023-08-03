@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  list-style: none;
+}
+/* Index styles*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: antiquewhite;
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* elimina decoracion de lista de redes sociales */
+ul{
+  list-style: none;
+}
+.carousel-title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+}
+.img-about-us{
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+}
+.section-about-us{
+ margin-top: 1rem;
+}
+
+/* contacto styles*/
+.form {
+  width: 50%;
+  background: rgb(0, 0, 0, 0.491);
+  margin: 1rem auto 1rem auto;
+  padding: 20px;
+  color: white;
+  border-radius: 5%;
+}
+.headerForm {
+  text-align: center;
+}
+.formInput {
+  width: 100%;
+  height: 45px;
+  background: #ca949499;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #747171;
+  font-size: 1rem;
+  color: white;
+
+}
+.formText {
+  width: 100%;
+  background: #ca949499;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #eab6b6;
+  font-size: 1rem;
+  color: white;
+}
+.enviar {
+  width: 100%;
+  height: 50px;
+  background: rgb(0, 0, 0, 0.6);
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  background: #5f5c5c;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.enviar:hover {
+  background: white;
+  color: black;
+}
+/* styles servicios*/
+.imgArticles {
+  width: 200px;
+}
+.mainServices {
+  background-image: url(../img/background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* blog styles */
+.mainBlog {
+  background-image: url(../img/background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.articlesBlog {
+  display: inline-block;
+}
+.articlesBlog img {
+  width: 100px;
+  display: inline-block;
+  border-radius: 5%;
+}
+.articlesBlog a {
+  display: inline-block;
+}
+.articlesBlog p {
+  display: inline;
+}
