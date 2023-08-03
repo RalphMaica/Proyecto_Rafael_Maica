@@ -90,6 +90,12 @@ ul{
   color: #FF84FE;
   font-size: 0.9rem;
 }
+.blog-text a{
+  color: purple;
+}
+.blog-text a:hover{
+  color: red;
+}
 /* contacto styles*/
 .form {
   width: 50%;
