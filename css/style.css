@@ -60,7 +60,7 @@ ul{
 }
 .blog-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 20px 0px;
   flex-wrap: wrap;
