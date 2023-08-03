@@ -109,7 +109,13 @@ ul{
   text-overflow:ellipsis;
   margin: 20px 0px;
 }
-
+.blog-text a{
+  text-decoration: none;
+color: black;
+}
+.blog-text a:hover{
+color: #FF84FE;
+}
 /* contacto styles*/
 .form {
   width: 50%;
