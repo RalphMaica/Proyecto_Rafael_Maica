@@ -261,7 +261,16 @@ ul {
 .product1:hover {
 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
+.product1 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product1 figure{
+  overflow: hidden;
+}
+.product1:hover img{
+  transform: scale(1.2);
+}
 .product2 { grid-area: product2; 
 margin:0 auto;
 border-radius: 7px;
@@ -270,7 +279,16 @@ padding: 10px;
 .product2:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
+.product2 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product2 figure{
+  overflow: hidden;
+}
+.product2:hover img{
+  transform: scale(1.2);
+}
 .product3 { grid-area: product3; 
 margin:0 auto;
 border-radius: 7px;
@@ -279,7 +297,16 @@ padding: 10px;
 .product3:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
+.product3 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product3 figure{
+  overflow: hidden;
+}
+.product3:hover img{
+  transform: scale(1.2);
+}
 .product4 { grid-area: product4; 
 margin:0 auto;
 border-radius: 7px;
@@ -288,8 +315,16 @@ padding: 10px;
 .product4:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-
+.product4 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product4 figure{
+  overflow: hidden;
+}
+.product4:hover img{
+  transform: scale(1.2);
+}
 .product5 { grid-area: product5; 
 margin:0 auto;
 border-radius: 7px;
@@ -298,6 +333,17 @@ padding: 10px;
 .product5:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+.product5 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product5 figure{
+  overflow: hidden;
+}
+.product5:hover img{
+  transform: scale(1.2);
+}
+
 
 .product6 { grid-area: product6; 
 margin:0 auto;
@@ -307,6 +353,17 @@ padding: 10px;
 .product6:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+.product6 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product6 figure{
+  overflow: hidden;
+}
+.product6:hover img{
+  transform: scale(1.2);
+}
+
 
 .product7 { grid-area: product7; 
 margin:0 auto;
@@ -316,6 +373,16 @@ padding: 10px;
 .product7:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+.product7 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product7 figure{
+  overflow: hidden;
+}
+.product7:hover img{
+  transform: scale(1.2);
+}
 .product8 { grid-area: product8; 
 margin:0 auto;
 border-radius: 7px;
@@ -323,6 +390,16 @@ padding: 10px;
 }
 .product8:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product8 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product8 figure{
+  overflow: hidden;
+}
+.product8:hover img{
+  transform: scale(1.2);
 }
 .product9 { grid-area: product9; 
 margin:0 auto;
@@ -332,7 +409,16 @@ padding: 10px;
 .product9:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
+.product9 img{
+  object-fit: cover;
+  transition: all .7s;
+}
+.product9 figure{
+  overflow: hidden;
+}
+.product9:hover img{
+  transform: scale(1.2);
+}
 
 /* styles servicios*/
 .imgArticles {
