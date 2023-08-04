@@ -201,72 +201,138 @@ ul {
 }
 /* product pages styles*/
 
-.product-container {
-  width: 90%;
-  background-color: rgb(255, 249, 242);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  justify-content: center;
-  align-items: center;
-  display: grid;
+.product-container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  gap: 10px 10px;
   grid-auto-flow: row;
   grid-template-areas:
     "product-heading product-heading product-heading"
-    "product1 product2 Product3"
+    "product1 product2 product3"
     "product4 product5 product6"
     "product7 product8 product9";
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
 }
 
-.product-heading {
-  grid-area: product-heading;
- text-align: center;
+.product-heading { grid-area: product-heading; 
+  text-align: center;
 }
 .product-heading span{
   color: #ff84fe;
-  font-size: 0.9rem;
 }
-.product-heading h1{
+.product-heading h2{
   font-size: 2.5rem;
   color: #404040;
   font-weight: 600;
 }
-.product1 {
-  grid-area: product1;
+.btn-agregar{
+  text-decoration: none;
+  color: #272727;
+}
+.btn-agregar p{
+  text-align: center;
+  border: 1px solid #272727;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #ff84fe;
+}
+.btn-agregar p:hover{
+  background-color: #5f5c5c;
+  color: #fa73fa;
+}
+.product-title{
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #272727;
+}
+.price{
+  color: #fa73fa;
+  font-size: 1.5rem;
+}
+.product1 { grid-area: product1; 
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
+}
+.product1:hover {
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.product2 {
-  grid-area: product2;
+.product2 { grid-area: product2; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product2:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.Product3 {
-  grid-area: Product3;
+.product3 { grid-area: product3; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product3:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.product4 {
-  grid-area: product4;
+.product4 { grid-area: product4; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product4:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.product5 {
-  grid-area: product5;
+
+.product5 { grid-area: product5; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product5:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.product6 {
-  grid-area: product6;
+.product6 { grid-area: product6; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product6:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.product7 {
-  grid-area: product7;
+.product7 { grid-area: product7; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product7:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product8 { grid-area: product8; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product8:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product9 { grid-area: product9; 
+margin:0 auto;
+border-radius: 7px;
+padding: 10px;
+}
+.product9:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.product8 {
-  grid-area: product8;
-}
-
-.product9 {
-  grid-area: product9;
-}
 
 /* styles servicios*/
 .imgArticles {
