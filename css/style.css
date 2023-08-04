@@ -117,6 +117,39 @@ color: black;
 color: #FF84FE;
 transition: all ease 0.3s;
 }
+/* blog section subscribe*/
+.blog-subscribe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #fa73fa;
+  height: auto;
+}
+.subscribe-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  color:white;
+}
+.subscribe-heading h2{
+  font-family: 'Dancing Script', cursive;
+  padding: 2px;
+}
+.subscribe-heading span{
+  font-size: 5rem;
+}
+.subscribe-form form input{
+  background-color: #554255;
+  color: white;
+margin-top: 10px;
+text-align: center;
+}
+
 /* contacto styles*/
 .form {
   width: 50%;
