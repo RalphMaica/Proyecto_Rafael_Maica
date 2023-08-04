@@ -200,6 +200,38 @@ text-align: center;
   background: white;
   color: black;
 }
+.product-container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "product-heading product-heading product-heading"
+    "product1 product2 Product3"
+    "product4 product5 product6"
+    "product7 product8 product9";
+}
+
+.product-heading { grid-area: product-heading; }
+
+.product1 { grid-area: product1; }
+
+.product2 { grid-area: product2; }
+
+.Product3 { grid-area: Product3; }
+
+.product4 { grid-area: product4; }
+
+.product5 { grid-area: product5; }
+
+.product6 { grid-area: product6; }
+
+.product7 { grid-area: product7; }
+
+.product8 { grid-area: product8; }
+
+.product9 { grid-area: product9; }
+
 /* styles servicios*/
 .imgArticles {
   width: 200px;
