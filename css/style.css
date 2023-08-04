@@ -2,40 +2,40 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   list-style: none;
 }
 /* Index styles*/
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: antiquewhite;
   width: 90%;
   margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* elimina decoracion de lista de redes sociales */
-ul{
+ul {
   list-style: none;
 }
-.carousel-title{
-  font-family: 'Dancing Script', cursive;
+.carousel-title {
+  font-family: "Dancing Script", cursive;
   font-size: 5rem;
 }
-.img-about-us{
+.img-about-us {
   width: 300px;
   height: 300px;
   border-radius: 5%;
 }
-.section-about-us{
- margin-top: 1rem;
+.section-about-us {
+  margin-top: 1rem;
 }
 /* blog styles */
-.mainBlog{
+.mainBlog {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,81 +44,81 @@ ul{
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   background-color: rgb(255, 249, 242);
 }
-.blog-heading{
+.blog-heading {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.blog-heading span{
-  color: #FF84FE;
+.blog-heading span {
+  color: #ff84fe;
 }
-.blog-heading h1{
+.blog-heading h1 {
   font-size: 2.5rem;
   color: #404040;
   font-weight: 600;
 }
-.blog-container{
+.blog-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0px;
   flex-wrap: wrap;
 }
-.blog-box{
+.blog-box {
   width: 250px;
   background-color: white;
   border: 1px solid #ececec;
   margin: 20px;
 }
-.blog-image{
+.blog-image {
   width: 100%;
   height: auto;
 }
-.blog-image img{
+.blog-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
-.blog-text{
+.blog-text {
   padding: 30px;
   display: flex;
   flex-direction: column;
 }
-.blog-text span{
-  color: #FF84FE;
+.blog-text span {
+  color: #ff84fe;
   font-size: 0.9rem;
 }
-.blog-text .blog-title{
+.blog-text .blog-title {
   font-size: 1.3rem;
   font-weight: 500;
   color: #272727;
 }
-.blog-text .blog-title:hover{
-  color: #FF84FE;
+.blog-text .blog-title:hover {
+  color: #ff84fe;
   transition: all ease 0.3s;
 }
-.blog-text p{
+.blog-text p {
   color: #9b9b9b;
   font-size: 0.9rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow:ellipsis;
+  text-overflow: ellipsis;
   margin: 20px 0px;
 }
-.blog-text a{
+.blog-text a {
   text-decoration: none;
-color: black;
+  color: black;
 }
-.blog-text a:hover{
-color: #FF84FE;
-transition: all ease 0.3s;
+.blog-text a:hover {
+  color: #ff84fe;
+  transition: all ease 0.3s;
 }
 /* blog section subscribe*/
-.blog-subscribe{
+.blog-subscribe {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -129,25 +129,25 @@ transition: all ease 0.3s;
   background-color: #fa73fa;
   height: auto;
 }
-.subscribe-heading{
+.subscribe-heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
-  color:white;
+  flex-direction: column;
+  color: white;
 }
-.subscribe-heading h2{
-  font-family: 'Dancing Script', cursive;
+.subscribe-heading h2 {
+  font-family: "Dancing Script", cursive;
   padding: 2px;
 }
-.subscribe-heading span{
+.subscribe-heading span {
   font-size: 5rem;
 }
-.subscribe-form form input{
+.subscribe-form form input {
   background-color: #554255;
   color: white;
-margin-top: 10px;
-text-align: center;
+  margin-top: 10px;
+  text-align: center;
 }
 
 /* contacto styles*/
@@ -172,7 +172,6 @@ text-align: center;
   border-bottom: 2px solid #747171;
   font-size: 1rem;
   color: white;
-
 }
 .formText {
   width: 100%;
@@ -200,7 +199,15 @@ text-align: center;
   background: white;
   color: black;
 }
-.product-container {  display: grid;
+/* product pages styles*/
+
+.product-container {
+  width: 90%;
+  background-color: rgb(255, 249, 242);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  align-items: center;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -212,25 +219,45 @@ text-align: center;
     "product7 product8 product9";
 }
 
-.product-heading { grid-area: product-heading; }
+.product-heading {
+  grid-area: product-heading;
+}
 
-.product1 { grid-area: product1; }
+.product1 {
+  grid-area: product1;
+}
 
-.product2 { grid-area: product2; }
+.product2 {
+  grid-area: product2;
+}
 
-.Product3 { grid-area: Product3; }
+.Product3 {
+  grid-area: Product3;
+}
 
-.product4 { grid-area: product4; }
+.product4 {
+  grid-area: product4;
+}
 
-.product5 { grid-area: product5; }
+.product5 {
+  grid-area: product5;
+}
 
-.product6 { grid-area: product6; }
+.product6 {
+  grid-area: product6;
+}
 
-.product7 { grid-area: product7; }
+.product7 {
+  grid-area: product7;
+}
 
-.product8 { grid-area: product8; }
+.product8 {
+  grid-area: product8;
+}
 
-.product9 { grid-area: product9; }
+.product9 {
+  grid-area: product9;
+}
 
 /* styles servicios*/
 .imgArticles {
@@ -241,4 +268,3 @@ text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
