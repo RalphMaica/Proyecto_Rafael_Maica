@@ -221,8 +221,17 @@ ul {
 
 .product-heading {
   grid-area: product-heading;
+ text-align: center;
 }
-
+.product-heading span{
+  color: #ff84fe;
+  font-size: 0.9rem;
+}
+.product-heading h1{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #272727;
+}
 .product1 {
   grid-area: product1;
 }
