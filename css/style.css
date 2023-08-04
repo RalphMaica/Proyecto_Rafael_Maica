@@ -60,7 +60,7 @@ ul{
 }
 .blog-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 20px 0px;
   flex-wrap: wrap;
@@ -115,6 +115,7 @@ color: black;
 }
 .blog-text a:hover{
 color: #FF84FE;
+transition: all ease 0.3s;
 }
 /* contacto styles*/
 .form {
