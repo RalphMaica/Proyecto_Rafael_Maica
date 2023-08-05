@@ -201,7 +201,8 @@ ul {
 }
 /* product pages styles*/
 
-.product-container {  display: grid;
+.product-container {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 1fr 1fr 1fr;
   gap: 10px 10px;
@@ -211,216 +212,225 @@ ul {
     "product1 product2 product3"
     "product4 product5 product6"
     "product7 product8 product9";
-    background-color: white;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2rem;
+  background-color: white;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
-.product-heading { grid-area: product-heading; 
+.product-heading {
+  grid-area: product-heading;
   text-align: center;
 }
-.product-heading span{
+.product-heading span {
   color: #ff84fe;
 }
-.product-heading h2{
+.product-heading h2 {
   font-size: 2.5rem;
   color: #404040;
   font-weight: 600;
 }
-.btn-agregar{
+.btn-agregar {
   text-decoration: none;
   color: #272727;
 }
-.btn-agregar p{
+.btn-agregar p {
   text-align: center;
   border: 1px solid #272727;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   background-color: #ff84fe;
 }
-.btn-agregar p:hover{
+.btn-agregar p:hover {
   background-color: #5f5c5c;
   color: #fa73fa;
 }
-.product-title{
+.product-title {
   font-size: 1.6rem;
   font-weight: 500;
   color: #272727;
 }
-.price{
+.price {
   color: #fa73fa;
   font-size: 1.5rem;
 }
-.product1 { grid-area: product1; 
+.product1 {
+  grid-area: product1;
   margin: 0 auto;
   border-radius: 7px;
   padding: 10px;
 }
 .product1:hover {
-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.product1 img{
-  object-fit: cover;
-  transition: all .7s;
-}
-.product1 figure{
-  overflow: hidden;
-}
-.product1:hover img{
-  transform: scale(1.2);
-}
-.product2 { grid-area: product2; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
-}
-.product2:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product2 img{
+.product1 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product2 figure{
+.product1 figure {
   overflow: hidden;
 }
-.product2:hover img{
+.product1:hover img {
   transform: scale(1.2);
 }
-.product3 { grid-area: product3; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
+.product2 {
+  grid-area: product2;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
 }
-.product3:hover{
+.product2:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product3 img{
+.product2 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product3 figure{
+.product2 figure {
   overflow: hidden;
 }
-.product3:hover img{
+.product2:hover img {
   transform: scale(1.2);
 }
-.product4 { grid-area: product4; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
+.product3 {
+  grid-area: product3;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
 }
-.product4:hover{
+.product3:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product4 img{
+.product3 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product4 figure{
+.product3 figure {
   overflow: hidden;
 }
-.product4:hover img{
+.product3:hover img {
   transform: scale(1.2);
 }
-.product5 { grid-area: product5; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
+.product4 {
+  grid-area: product4;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
 }
-.product5:hover{
+.product4:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product5 img{
+.product4 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product5 figure{
+.product4 figure {
   overflow: hidden;
 }
-.product5:hover img{
+.product4:hover img {
+  transform: scale(1.2);
+}
+.product5 {
+  grid-area: product5;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
+}
+.product5:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product5 img {
+  object-fit: cover;
+  transition: all 0.7s;
+}
+.product5 figure {
+  overflow: hidden;
+}
+.product5:hover img {
   transform: scale(1.2);
 }
 
-
-.product6 { grid-area: product6; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
+.product6 {
+  grid-area: product6;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
 }
-.product6:hover{
+.product6:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product6 img{
+.product6 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product6 figure{
+.product6 figure {
   overflow: hidden;
 }
-.product6:hover img{
+.product6:hover img {
   transform: scale(1.2);
 }
 
-
-.product7 { grid-area: product7; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
+.product7 {
+  grid-area: product7;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
 }
-.product7:hover{
+.product7:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product7 img{
+.product7 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product7 figure{
+.product7 figure {
   overflow: hidden;
 }
-.product7:hover img{
+.product7:hover img {
   transform: scale(1.2);
 }
-.product8 { grid-area: product8; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
+.product8 {
+  grid-area: product8;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
 }
-.product8:hover{
+.product8:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product8 img{
+.product8 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product8 figure{
+.product8 figure {
   overflow: hidden;
 }
-.product8:hover img{
+.product8:hover img {
   transform: scale(1.2);
 }
-.product9 { grid-area: product9; 
-margin:0 auto;
-border-radius: 7px;
-padding: 10px;
+.product9 {
+  grid-area: product9;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 10px;
 }
-.product9:hover{
+.product9:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.product9 img{
+.product9 img {
   object-fit: cover;
-  transition: all .7s;
+  transition: all 0.7s;
 }
-.product9 figure{
+.product9 figure {
   overflow: hidden;
 }
-.product9:hover img{
+.product9:hover img {
   transform: scale(1.2);
 }
-@media only screen and (max-width:480px){
-  .product-container {  display: grid;
+@media only screen and (max-width: 480px) {
+  .product-container {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10fr);
     grid-auto-flow: column;
@@ -435,18 +445,13 @@ padding: 10px;
       "product7"
       "product8"
       "product9";
-      background-color: white;
-      margin: 0 auto;
-      justify-content: center;
-      align-items: center;
-      padding-bottom: 0.25rem;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.25rem;
   }
-
 }
-
-
-
-
 
 /* styles servicios*/
 .imgArticles {
