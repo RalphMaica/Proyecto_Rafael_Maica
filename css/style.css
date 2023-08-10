@@ -155,54 +155,89 @@ ul {
 }
 
 /* contacto styles*/
-.form {
-  width: 50%;
-  background: rgb(0, 0, 0, 0.491);
-  margin: 1rem auto 1rem auto;
-  padding: 20px;
-  color: white;
+.form-main {
+  background-color:antiquewhite;
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+.form-container {
+  max-width: 700px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 25px 30px;
   border-radius: 5%;
 }
-.headerForm {
-  text-align: center;
+.form-container .form-title{
+  color: #272727;
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
 }
-.formInput {
-  width: 100%;
+.form-container .form-title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background-color: #fa73fa;
+}
+.form-contact form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  width: calc(100% / 2 -20px);
+  margin-bottom: 15px;
+  
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
   height: 45px;
-  background: #ca949499;
-  padding: 10px;
-  outline: none;
-  border: none;
-  border-bottom: 2px solid #747171;
-  font-size: 1rem;
-  color: white;
-}
-.formText {
   width: 100%;
-  background: #ca949499;
-  padding: 10px;
   outline: none;
-  border: none;
-  border-bottom: 2px solid #eab6b6;
-  font-size: 1rem;
-  color: white;
+  border-radius: 5px;
+  border: 1px solid #5f5c5c;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
 }
-.enviar {
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #fa73fa;
+}
+form .button{
+  height: 45px;
+  margin: 45px 0;
+}
+form .button input{
+  color: #272727;
+  height: 100%;
   width: 100%;
-  height: 50px;
-  background: rgb(0, 0, 0, 0.6);
-  padding: 10px;
   outline: none;
-  border: none;
-  color: white;
-  background: #5f5c5c;
   text-align: center;
-  font-size: 1.3rem;
+  border: 1px solid #272727;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #ff84fe;
 }
-.enviar:hover {
-  background: white;
-  color: black;
+form .button input:hover{
+  background-color: #5f5c5c;
+  color: #fa73fa;
 }
+
 /* product pages styles*/
 
 .product-container {
