@@ -67,27 +67,32 @@
     </nav>
   </header>
   <main>
-    <form class="form" action="">
-      <div class="headerForm">
-        <h1>Formulario de contacto</h1>
-      </div>
-      <label class="formLabel" for="name">Nombre:</label>
-      <input class="formInput" type="text" name="nombre" placeholder="Nombre" id="name" />
-
-      <label class="formLabel" for="direccion">Dirección:</label>
-      <input class="formInput" type="text" name="direccion" placeholder="Dirección" id="direccion" />
-
-      <label class="formLabel" for="telefono">Telefóno:</label>
-      <input class="formInput" type="text" name="telefono" placeholder="Teléfono" id="telefono" />
-
-      <label class="formLabel" for="correo">Correo electrónico:</label>
-      <input class="formInput" type="email" name="correo" placeholder="Correo electrónico" id="correo" />
-
-      <label class="formLabel" for="mensaje">Deja tu mensaje aqui:</label>
-      <textarea class="formText" name="mensaje" id="" cols="30" rows="10" placeholder="Comentanos"></textarea>
-
-      <input type="submit" class="enviar" value="Enviar su consulta" />
-    </form>
+    <section class="form-container">
+      <h1 class="form-title">Registro de datos</h1>
+      <form action="">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nombre y apellido</span>
+            <input type="text" placeholder="Coloca nombre y apellido" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Nombre y apellido</span>
+            <input type="text" placeholder="Coloca nombre y apellido" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Correo electrónico</span>
+            <input type="text" placeholder="Coloca tu email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Número telefónico</span>
+            <input type="text" placeholder="Coloca tu numero telefonico" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Registrar">
+        </div>
+      </form>
+  </section>
   </main>
   <footer class="container-fluid bg-body-transparent">
     <div class="row d-flex justify-content-between p-3">
