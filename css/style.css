@@ -17,6 +17,10 @@ body {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
 }
+/* estilos de botones de navbar*/
+.nav-link li:hover{
+ color: #272727;
+}
 
 /* elimina decoracion de lista de redes sociales */
 ul {
