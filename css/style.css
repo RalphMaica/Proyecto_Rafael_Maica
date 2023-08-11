@@ -38,6 +38,10 @@ ul {
 .section-about-us {
   margin-top: 1rem;
 }
+.imgs-carousel{
+  height: calc(100vh - 126px);
+  object-fit: cover;
+}
 /* blog styles */
 .mainBlog {
   display: flex;
