@@ -251,7 +251,18 @@ form .button input:hover{
   background-color: #5f5c5c;
   color: #fa73fa;
 }
-
+/* map area contact*/
+.map-container{
+  background-color: #ffffff;
+  margin-left: 2rem;
+  padding: 0 2rem 0 2rem;
+  border-radius: 5%;
+}
+.mapa{
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
 /* product pages styles*/
 
 .product-container {
