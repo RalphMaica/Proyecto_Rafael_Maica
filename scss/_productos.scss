@@ -1,0 +1,92 @@
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "product-heading product-heading product-heading"
+    "product1 product2 product3"
+    "product4 product5 product6"
+    "product7 product8 product9";
+  background-color: $main-color;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  .product-heading {
+    grid-area: product-heading;
+    text-align: center;
+    span {
+      color: $span-color;
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 5rem;
+      color: $heading-color;
+      font-weight: 600;
+    }
+  }
+  .product-title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: black;
+  }
+  .price {
+    color: $span-color;
+    font-size: 2.5rem;
+  }
+  .product1 {
+    grid-area: product1;
+  }
+  .prod {
+    margin: 0 auto;
+    border-radius: 7px;
+    padding: 10px;
+    &:hover {
+      box-shadow: $boxshadow-color;
+    }
+    img {
+      object-fit: cover;
+      transition: all 0.7s;
+      &:hover {
+        transform: scale(1.1);
+      }
+      figure {
+        overflow: hidden;
+      }
+    }
+  }
+  .product2 {
+    grid-area: product2;
+    @extend .prod;
+  }
+  .product3{
+    grid-area: product3;
+    @extend .prod;
+  }
+  .product4{
+    grid-area: product4;
+    @extend .prod;
+  }
+  .product5{
+    grid-area: product5;
+    @extend .prod;
+  }
+  .product6{
+    grid-area: product6;
+    @extend .prod;
+  }
+  .product7{
+    grid-area: product7;
+    @extend .prod;
+  }
+  .product8{
+    grid-area: product8;
+    @extend .prod;
+  }
+  .product9{
+    grid-area: product9;
+    @extend .prod;
+  }
+}

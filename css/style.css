@@ -81,6 +81,67 @@ ul {
 .footer a {
   font-size: 2rem; }
 
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "product-heading product-heading product-heading" "product1 product2 product3" "product4 product5 product6" "product7 product8 product9";
+  background-color: #fff9f2;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem; }
+  .product-container .product-heading {
+    grid-area: product-heading;
+    text-align: center; }
+    .product-container .product-heading span {
+      color: #ff84fe;
+      font-size: 2.5em; }
+    .product-container .product-heading h2 {
+      font-size: 5rem;
+      color: #404040;
+      font-weight: 600; }
+  .product-container .product-title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: black; }
+  .product-container .price {
+    color: #ff84fe;
+    font-size: 2.5rem; }
+  .product-container .product1 {
+    grid-area: product1; }
+  .product-container .prod, .product-container .product2, .product-container .product3, .product-container .product4, .product-container .product5, .product-container .product6, .product-container .product7, .product-container .product8, .product-container .product9 {
+    margin: 0 auto;
+    border-radius: 7px;
+    padding: 10px; }
+    .product-container .prod:hover, .product-container .product2:hover, .product-container .product3:hover, .product-container .product4:hover, .product-container .product5:hover, .product-container .product6:hover, .product-container .product7:hover, .product-container .product8:hover, .product-container .product9:hover {
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+    .product-container .prod img, .product-container .product2 img, .product-container .product3 img, .product-container .product4 img, .product-container .product5 img, .product-container .product6 img, .product-container .product7 img, .product-container .product8 img, .product-container .product9 img {
+      object-fit: cover;
+      transition: all 0.7s; }
+      .product-container .prod img:hover, .product-container .product2 img:hover, .product-container .product3 img:hover, .product-container .product4 img:hover, .product-container .product5 img:hover, .product-container .product6 img:hover, .product-container .product7 img:hover, .product-container .product8 img:hover, .product-container .product9 img:hover {
+        transform: scale(1.1); }
+      .product-container .prod img figure, .product-container .product2 img figure, .product-container .product3 img figure, .product-container .product4 img figure, .product-container .product5 img figure, .product-container .product6 img figure, .product-container .product7 img figure, .product-container .product8 img figure, .product-container .product9 img figure {
+        overflow: hidden; }
+  .product-container .product2 {
+    grid-area: product2; }
+  .product-container .product3 {
+    grid-area: product3; }
+  .product-container .product4 {
+    grid-area: product4; }
+  .product-container .product5 {
+    grid-area: product5; }
+  .product-container .product6 {
+    grid-area: product6; }
+  .product-container .product7 {
+    grid-area: product7; }
+  .product-container .product8 {
+    grid-area: product8; }
+  .product-container .product9 {
+    grid-area: product9; }
+
 .navbar a {
   font-size: 2em; }
   .navbar a:hover {
@@ -173,3 +234,26 @@ ul {
         padding: 2px; }
       .mainBlog .blog-subscribe .blog-heading span {
         font-size: 5rem; }
+    .mainBlog .blog-subscribe .subscribe-form {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 1.5rem; }
+      .mainBlog .blog-subscribe .subscribe-form form {
+        width: 500px;
+        margin: 0 auto; }
+        .mainBlog .blog-subscribe .subscribe-form form input {
+          width: 300px;
+          margin: 0 auto; }
+
+@media only screen and (max-width: 480px) {
+  .product-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10fr);
+    grid-auto-flow: column;
+    grid-template-areas: "product-heading" "product1" "product2" "product3" "product4" "product5" "product6" "product7" "product8" "product9";
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.25rem; } }
