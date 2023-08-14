@@ -17,3 +17,32 @@ body{
 ul{
   list-style-type: none;
 }
+// atrbutos al header navbar //
+.navbar a {
+  font-size: 2em;
+  &:hover {
+    color: white;
+  }
+}
+// atributos al footer //
+.footer {
+  h3 {
+    font-size: 3em;
+    font-weight: 600;
+    color: $heading-color;
+  }
+  p {
+    font-size: 2em;
+    font-weight: 400;
+  }
+}
+.footer {
+  h5 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: $heading-color;
+  }
+  a {
+    font-size: 2rem;
+  }
+}
