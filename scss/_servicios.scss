@@ -1,0 +1,27 @@
+.main-services{
+  width: 90%;
+  margin: 0 auto;
+  background-color: $main-color;
+}
+.services-container {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "services1 img-services1"
+    "img-services2 services2"
+    "services3 img-services3";
+}
+
+.services1 { grid-area: services1; }
+
+.img-services1 { grid-area: img-services1; }
+
+.img-services2 { grid-area: img-services2; }
+
+.services2 { grid-area: services2; }
+
+.services3 { grid-area: services3; }
+
+.img-services3 { grid-area: img-services3; }
