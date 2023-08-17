@@ -22,3 +22,21 @@
     padding-bottom: 0.25rem;
   }
 }
+// media query de formulario de contacto //
+@media only screen and (max-width: 480px){
+  .form-main{
+    width: 100%;
+    #map{
+      width: 100%;
+  }
+  
+  }
+  .form-container{
+    flex-direction: column;
+    padding: 0;
+    form {
+      width: 100%;
+      padding: 5px;
+    }
+  }
+}
