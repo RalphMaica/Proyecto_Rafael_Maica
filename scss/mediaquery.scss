@@ -40,3 +40,40 @@
     }
   }
 }
+// media query de pagina de servicios//
+@media only screen and (max-width: 480px) {
+  .main-services{
+    padding: 15px;
+  }
+  .services-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7 , 1fr);
+  margin: 0 auto;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "heading-services"
+    "services-content1"
+    "img-services1"
+    "services-content2"
+    "img-services2 "
+    "services-content3 "
+    "img-content3";
+  border: 0.5px solid $main-color;
+  &:hover {
+    box-shadow: $boxshadow-color;
+  }
+  .contents__services{
+    justify-content: center;
+    margin: 0 auto;
+    h2{
+      padding:0;
+    }
+    p{
+      padding: 0;
+    }
+  }
+}
+
+}

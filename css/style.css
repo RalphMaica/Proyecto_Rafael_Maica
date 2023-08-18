@@ -205,10 +205,6 @@ ul {
 .img-content3 {
   grid-area: img-content3; }
 
-.img-content img {
-  display: inline-block;
-  margin: 0 auto; }
-
 .navbar a {
   font-size: 2em; }
   .navbar a:hover {
@@ -385,6 +381,28 @@ ul {
     .form-container form {
       width: 100%;
       padding: 5px; } }
+
+@media only screen and (max-width: 480px) {
+  .main-services {
+    padding: 15px; }
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    margin: 0 auto;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas: "heading-services" "services-content1" "img-services1" "services-content2" "img-services2 " "services-content3 " "img-content3";
+    border: 0.5px solid #fff9f2; }
+    .services-container:hover {
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+    .services-container .contents__services {
+      justify-content: center;
+      margin: 0 auto; }
+      .services-container .contents__services h2 {
+        padding: 0; }
+      .services-container .contents__services p {
+        padding: 0; } }
 
 .button[type="submit"] {
   background-color: #404040;
