@@ -143,20 +143,52 @@ ul {
     grid-area: product9; }
 
 .main-services {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  background-color: #fff9f2; }
+  background-color: #fff9f2;
+  padding: 40px; }
+
+.heading-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .heading-services span {
+    color: #ff84fe;
+    font-size: 2.5em; }
+  .heading-services h1 {
+    font-size: 5rem;
+    color: #404040;
+    font-weight: 600; }
 
 .services-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 5px 5px;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "services1 img-services1" "img-services2 services2" "services3 img-services3"; }
+  grid-template-areas: "heading-services heading-services" "services-content1 img-services1" "img-services2 services-content2" "services-content3 img-content3";
+  border: 0.5px solid #fff9f2; }
+  .services-container:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+  .services-container .contents__services {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
+    .services-container .contents__services h2 {
+      font-size: 3rem;
+      color: #404040;
+      font-weight: 600;
+      padding: 10px; }
+    .services-container .contents__services p {
+      padding: 10px;
+      font-size: 2rem; }
 
-.services1 {
-  grid-area: services1; }
+.heading-services {
+  grid-area: heading-services; }
+
+.services-content1 {
+  grid-area: services-content1; }
 
 .img-services1 {
   grid-area: img-services1; }
@@ -164,14 +196,18 @@ ul {
 .img-services2 {
   grid-area: img-services2; }
 
-.services2 {
-  grid-area: services2; }
+.services-content2 {
+  grid-area: services-content2; }
 
-.services3 {
-  grid-area: services3; }
+.services-content3 {
+  grid-area: services-content3; }
 
-.img-services3 {
-  grid-area: img-services3; }
+.img-content3 {
+  grid-area: img-content3; }
+
+.img-content img {
+  display: inline-block;
+  margin: 0 auto; }
 
 .navbar a {
   font-size: 2em; }
