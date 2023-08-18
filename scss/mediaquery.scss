@@ -43,12 +43,15 @@
 // media query de pagina de servicios//
 @media only screen and (max-width: 480px) {
   .main-services{
-    padding: 15px;
+    padding: 5px;
+  }
+  .heading-services{
+    height: 200px;
   }
   .services-container{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(7 , 1fr);
+  grid-template-rows: 100px 0.90fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr;
   margin: 0 auto;
   gap: 0px 0px;
   grid-auto-flow: column;
@@ -67,8 +70,9 @@
   .contents__services{
     justify-content: center;
     margin: 0 auto;
-    h2{
+    h1{
       padding:0;
+      text-align: center;
     }
     p{
       padding: 0;

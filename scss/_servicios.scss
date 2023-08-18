@@ -49,6 +49,14 @@
       font-size: 2rem;
     }
   }
+  .img-content{
+    display: flex;
+    justify-content: center;
+    img{
+    border-radius: 5px;
+    object-fit: cover;
+    }
+  }
 }
 
 .heading-services {
