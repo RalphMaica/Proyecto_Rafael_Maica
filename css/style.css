@@ -41,7 +41,10 @@ ul {
 
 .carousel-title {
   font-family: "Dancing Script", cursive;
-  font-size: 10rem; }
+  font-size: 8rem; }
+
+.carousel__content {
+  font-size: 2rem; }
 
 .imgs-carousel {
   height: calc(100dvh - 126px);
