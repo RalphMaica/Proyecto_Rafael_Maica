@@ -321,7 +321,7 @@ ul {
     justify-content: center;
     color: #ff84fe;
     font-size: 2.5rem; }
-  .form-main h2 {
+  .form-main h1 {
     display: flex;
     justify-content: center;
     color: #404040;
@@ -329,15 +329,19 @@ ul {
     color: #404040;
     font-weight: 600;
     margin-bottom: 20px; }
-  .form-main #map {
+  .form-main .mapa {
     height: auto;
     width: 50%;
     margin: 0 auto; }
+    .form-main .mapa iframe {
+      width: 100%;
+      height: 100%; }
 
 .form-container {
   height: calc(100dvh - 126px);
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 20px; }
   .form-container form {
@@ -406,6 +410,19 @@ ul {
         padding: 0; }
       .services-container .contents__services p {
         padding: 0; } }
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    flex-direction: column; }
+    .form-container form {
+      width: 100%; }
+  .mapa {
+    height: auto;
+    width: 100%;
+    margin: 0 auto; }
+    .mapa iframe {
+      width: 100%;
+      height: 100%; } }
 
 .button[type="submit"] {
   background-color: #404040;
