@@ -2,7 +2,9 @@ html {
   font-size: 62.5%;
   box-sizing: border-box; }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit; }
 
 body {
@@ -39,6 +41,10 @@ ul {
 .footer a {
   font-size: 2rem; }
 
+.footer-rrss a {
+  padding-left: 0;
+  margin-right: 5rem; }
+
 .carousel-title {
   font-family: "Dancing Script", cursive;
   font-size: 8rem; }
@@ -52,6 +58,7 @@ ul {
   border-radius: 5px; }
 
 .img-about-us {
+  object-fit: cover;
   width: 300px;
   height: 300px;
   border-radius: 5%; }
@@ -88,7 +95,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 1fr 1fr 1fr;
-  gap: 10px 10px;
+  gap: 35px 10px;
   grid-auto-flow: row;
   grid-template-areas: "product-heading product-heading product-heading" "product1 product2 product3" "product4 product5 product6" "product7 product8 product9";
   background-color: #fff9f2;
@@ -289,33 +296,39 @@ ul {
             color: #ff84fe;
             transition: all ease 0.3s; }
   .mainBlog .blog-subscribe {
+    border: 2px red;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 20px 0px;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: white; }
-    .mainBlog .blog-subscribe .blog-heading {
+    .mainBlog .blog-subscribe .subscribe-heading {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       color: #404040; }
-      .mainBlog .blog-subscribe .blog-heading h2 {
-        padding: 2px; }
-      .mainBlog .blog-subscribe .blog-heading span {
+      .mainBlog .blog-subscribe .subscribe-heading h2 {
+        padding: 0 20px;
+        display: flex;
+        margin-bottom: 50px; }
+      .mainBlog .blog-subscribe .subscribe-heading span {
         font-size: 5rem; }
     .mainBlog .blog-subscribe .subscribe-form {
       width: 100%;
+      text-align: center;
       margin: 0 auto;
       font-size: 1.5rem; }
       .mainBlog .blog-subscribe .subscribe-form form {
         width: 500px;
         margin: 0 auto; }
         .mainBlog .blog-subscribe .subscribe-form form input {
+          display: inline-block;
           width: 300px;
-          margin: 0 auto; }
+          margin-bottom: 20px; }
 
 .form-main {
   background-color: #fff9f2;

@@ -1,11 +1,13 @@
-html{
+html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
-body{
+body {
   width: 90%;
   padding: 0;
   margin: 0;
@@ -14,7 +16,7 @@ body{
   background-color: $body-color;
   margin: 0 auto;
 }
-ul{
+ul {
   list-style-type: none;
 }
 // atrbutos al header navbar //
@@ -44,5 +46,11 @@ ul{
   }
   a {
     font-size: 2rem;
+  }
+}
+.footer-rrss{
+  a{
+    padding-left: 0;
+    margin-right: 5rem;
   }
 }

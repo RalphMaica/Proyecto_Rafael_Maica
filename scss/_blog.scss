@@ -88,21 +88,25 @@
     }
   }
   .blog-subscribe {
+    border: 2px red;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 20px 0px;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: $section-color;
-    .blog-heading {
+    .subscribe-heading {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       color: $heading-color;
       h2 {
-        padding: 2px;
+        padding: 0 20px;
+        display: flex;
+        margin-bottom: 50px;
       }
       span {
         font-size: 5rem;
@@ -110,14 +114,16 @@
     }
     .subscribe-form {
       width: 100%;
+      text-align: center;
       margin: 0 auto;
       font-size: 1.5rem;
       form {
         width: 500px;
         margin: 0 auto;
         input {
+          display: inline-block;
           width: 300px;
-          margin: 0 auto;
+          margin-bottom: 20px;
         }
       }
     }
