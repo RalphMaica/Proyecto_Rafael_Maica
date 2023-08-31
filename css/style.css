@@ -424,7 +424,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 0.90fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr;
-    margin: 0 auto;
+    margin: 0 10px;
     gap: 0px 0px;
     grid-auto-flow: column;
     grid-template-areas: "heading-services" "services-content1" "img-services1" "services-content2" "img-services2 " "services-content3 " "img-content3";
