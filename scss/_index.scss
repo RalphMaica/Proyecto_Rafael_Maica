@@ -24,6 +24,9 @@
   align-items: center;
   border-radius: 5px;
   padding: 2rem 0.5rem 1rem 0.5rem;
+  p{
+    text-align: left;
+  }
 }
 .section-about-us,
 .footer {
@@ -43,4 +46,8 @@
   a {
     font-size: 2rem;
   }
+}
+.icono-carousel{
+  font-size: 6rem;
+  font-weight: bold;
 }
