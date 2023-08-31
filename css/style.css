@@ -97,7 +97,10 @@ ul {
   grid-template-rows: 0.5fr 1fr 1fr 1fr;
   gap: 35px 10px;
   grid-auto-flow: row;
-  grid-template-areas: "product-heading product-heading product-heading" "product1 product2 product3" "product4 product5 product6" "product7 product8 product9";
+  grid-template-areas: "product-heading product-heading product-heading"
+ "product1 product2 product3"
+ "product4 product5 product6"
+ "product7 product8 product9";
   background-color: #fff9f2;
   margin: 0 auto;
   justify-content: center;
@@ -177,7 +180,10 @@ ul {
   grid-template-rows: 0.5fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "heading-services heading-services" "services-content1 img-services1" "img-services2 services-content2" "services-content3 img-content3";
+  grid-template-areas: "heading-services heading-services"
+ "services-content1 img-services1"
+ "img-services2 services-content2"
+ "services-content3 img-content3";
   border: 0.5px solid #fff9f2; }
   .services-container:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
@@ -296,7 +302,6 @@ ul {
             color: #ff84fe;
             transition: all ease 0.3s; }
   .mainBlog .blog-subscribe {
-    border: 2px red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +328,7 @@ ul {
       margin: 0 auto;
       font-size: 1.5rem; }
       .mainBlog .blog-subscribe .subscribe-form form {
-        width: 500px;
+        width: 100%;
         margin: 0 auto; }
         .mainBlog .blog-subscribe .subscribe-form form input {
           display: inline-block;
@@ -389,7 +394,16 @@ ul {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10fr);
     grid-auto-flow: column;
-    grid-template-areas: "product-heading" "product1" "product2" "product3" "product4" "product5" "product6" "product7" "product8" "product9";
+    grid-template-areas: "product-heading"
+ "product1"
+ "product2"
+ "product3"
+ "product4"
+ "product5"
+ "product6"
+ "product7"
+ "product8"
+ "product9";
     background-color: white;
     margin: 0 auto;
     justify-content: center;
@@ -420,7 +434,13 @@ ul {
     margin: 0 auto;
     gap: 0px 0px;
     grid-auto-flow: column;
-    grid-template-areas: "heading-services" "services-content1" "img-services1" "services-content2" "img-services2 " "services-content3 " "img-content3";
+    grid-template-areas: "heading-services"
+ "services-content1"
+ "img-services1"
+ "services-content2"
+ "img-services2 "
+ "services-content3 "
+ "img-content3";
     border: 0.5px solid #fff9f2; }
     .services-container:hover {
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
