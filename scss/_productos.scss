@@ -38,13 +38,14 @@
     grid-area: product1;
   }
   .prod {
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 7px;
     padding: 10px;
     &:hover {
       box-shadow: $boxshadow-color;
     }
     img {
+      border-radius: 7px;
       object-fit: cover;
       transition: all 0.7s;
       &:hover {
