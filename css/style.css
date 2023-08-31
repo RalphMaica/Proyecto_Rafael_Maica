@@ -74,9 +74,9 @@ ul {
 
 .section-about-us h3,
 .footer h3 {
-  font-size: 3em;
-  font-weight: 600;
-  color: #404040; }
+  color: #404040;
+  font-size: 3rem;
+  font-weight: 600; }
 
 .section-about-us p,
 .footer p {
@@ -84,9 +84,9 @@ ul {
   font-weight: 400; }
 
 .footer h5 {
-  font-size: 2.5em;
-  font-weight: 600;
-  color: #404040; }
+  color: #404040;
+  font-size: 2.5rem;
+  font-weight: 600; }
 
 .footer a {
   font-size: 2rem; }
@@ -97,10 +97,7 @@ ul {
   grid-template-rows: 0.5fr 1fr 1fr 1fr;
   gap: 35px 10px;
   grid-auto-flow: row;
-  grid-template-areas: "product-heading product-heading product-heading"
- "product1 product2 product3"
- "product4 product5 product6"
- "product7 product8 product9";
+  grid-template-areas: "product-heading product-heading product-heading" "product1 product2 product3" "product4 product5 product6" "product7 product8 product9";
   background-color: #fff9f2;
   margin: 0 auto;
   justify-content: center;
@@ -113,8 +110,8 @@ ul {
       color: #ff84fe;
       font-size: 2.5em; }
     .product-container .product-heading h1 {
-      font-size: 5rem;
       color: #404040;
+      font-size: 5rem;
       font-weight: 600; }
   .product-container .product-title {
     font-size: 3rem;
@@ -170,8 +167,8 @@ ul {
     color: #ff84fe;
     font-size: 2.5em; }
   .heading-services h1 {
-    font-size: 5rem;
     color: #404040;
+    font-size: 5rem;
     font-weight: 600; }
 
 .services-container {
@@ -180,10 +177,7 @@ ul {
   grid-template-rows: 0.5fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "heading-services heading-services"
- "services-content1 img-services1"
- "img-services2 services-content2"
- "services-content3 img-content3";
+  grid-template-areas: "heading-services heading-services" "services-content1 img-services1" "img-services2 services-content2" "services-content3 img-content3";
   border: 0.5px solid #fff9f2; }
   .services-container:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
@@ -192,8 +186,8 @@ ul {
     flex-direction: column;
     justify-content: start; }
     .services-container .contents__services h2 {
-      font-size: 3rem;
       color: #404040;
+      font-size: 3rem;
       font-weight: 600;
       padding: 10px; }
     .services-container .contents__services p {
@@ -249,8 +243,8 @@ ul {
       color: #ff84fe;
       font-size: 2.5em; }
     .mainBlog .blog-heading h1 {
-      font-size: 5rem;
       color: #404040;
+      font-size: 5rem;
       font-weight: 600; }
   .mainBlog .blog-container {
     display: flex;
@@ -328,7 +322,7 @@ ul {
       margin: 0 auto;
       font-size: 1.5rem; }
       .mainBlog .blog-subscribe .subscribe-form form {
-        width: 100%;
+        width: 500px;
         margin: 0 auto; }
         .mainBlog .blog-subscribe .subscribe-form form input {
           display: inline-block;
@@ -350,7 +344,6 @@ ul {
     justify-content: center;
     color: #404040;
     font-size: 5rem;
-    color: #404040;
     font-weight: 600;
     margin-bottom: 20px; }
   .form-main .mapa {
@@ -394,16 +387,7 @@ ul {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10fr);
     grid-auto-flow: column;
-    grid-template-areas: "product-heading"
- "product1"
- "product2"
- "product3"
- "product4"
- "product5"
- "product6"
- "product7"
- "product8"
- "product9";
+    grid-template-areas: "product-heading" "product1" "product2" "product3" "product4" "product5" "product6" "product7" "product8" "product9";
     background-color: white;
     margin: 0 auto;
     justify-content: center;
@@ -434,13 +418,7 @@ ul {
     margin: 0 auto;
     gap: 0px 0px;
     grid-auto-flow: column;
-    grid-template-areas: "heading-services"
- "services-content1"
- "img-services1"
- "services-content2"
- "img-services2 "
- "services-content3 "
- "img-content3";
+    grid-template-areas: "heading-services" "services-content1" "img-services1" "services-content2" "img-services2 " "services-content3 " "img-content3";
     border: 0.5px solid #fff9f2; }
     .services-container:hover {
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }

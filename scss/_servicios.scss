@@ -1,27 +1,24 @@
-@mixin flexcenter(){
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .main-services {
   width: 100%;
   margin: 0 auto;
   background-color: $main-color;
   padding: 40px;
 }
+
 .heading-services {
   @include flexcenter;
   flex-direction: column;
+
   span {
     color: $span-color;
     font-size: 2.5em;
   }
+
   h1 {
-    font-size: 5rem;
-    color: $heading-color;
-    font-weight: 600;
+    @include heading($heading-color, 5rem, 600)
   }
 }
+
 .services-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -34,30 +31,34 @@
     "img-services2 services-content2"
     "services-content3 img-content3";
   border: 0.5px solid $main-color;
+
   &:hover {
     box-shadow: $boxshadow-color;
   }
+
   .contents__services {
     display: flex;
     flex-direction: column;
     justify-content: start;
+
     h2 {
-      font-size: 3rem;
-      color: $heading-color;
-      font-weight: 600;
+      @include heading($heading-color, 3rem, 600) ;
       padding: 10px;
     }
+
     p {
       padding: 10px;
       font-size: 2rem;
     }
   }
-  .img-content{
+
+  .img-content {
     display: flex;
     justify-content: center;
-    img{
-    border-radius: 5px;
-    object-fit: cover;
+
+    img {
+      border-radius: 5px;
+      object-fit: cover;
     }
   }
 }
@@ -89,4 +90,3 @@
 .img-content3 {
   grid-area: img-content3;
 }
-

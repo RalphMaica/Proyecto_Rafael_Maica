@@ -13,10 +13,7 @@
   h1 {
     display: flex;
     justify-content: center;
-    color: $heading-color;
-    font-size: 5rem;
-    color: $heading-color;
-    font-weight: 600;
+      @include heading($heading-color, 5rem, 600);
     margin-bottom: 20px;
 
   }

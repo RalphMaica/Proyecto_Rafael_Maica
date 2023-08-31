@@ -22,9 +22,7 @@
       font-size: 2.5em;
     }
     h1 {
-      font-size: 5rem;
-      color: $heading-color;
-      font-weight: 600;
+        @include heading($heading-color, 5rem, 600);
     }
   }
   .product-title {

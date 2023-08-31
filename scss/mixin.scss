@@ -1,0 +1,10 @@
+@mixin flexcenter(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin heading ($argumento1 , $argumento2, $argumento3){
+  color: $argumento1;
+  font-size: $argumento2;
+  font-weight: $argumento3;
+}
