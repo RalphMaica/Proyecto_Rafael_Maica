@@ -81,12 +81,15 @@
   }
   .blog-subscribe {
     @include flexcenter;
+    width: 100%;
     flex-wrap: wrap;
     margin: 20px 0px;
+    padding: 10px;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: $section-color;
     .subscribe-heading {
+      width: 100%;
       @include flexcenter;
       flex-direction: column;
       color: $heading-color;
@@ -100,16 +103,15 @@
       }
     }
     .subscribe-form {
-      width: 100%;
       text-align: center;
       margin: 0 auto;
       font-size: 1.5rem;
       form {
-        width: 500px;
+        width: auto;
         margin: 0 auto;
         input {
           display: inline-block;
-          width: 300px;
+          width: 100%;
           margin-bottom: 20px;
         }
       }
