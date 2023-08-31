@@ -22,77 +22,92 @@
     padding-bottom: 0.25rem;
   }
 }
+
 // media query de formulario de contacto //
-@media only screen and (max-width: 480px){
-  .form-main{
+@media only screen and (max-width: 480px) {
+  .form-main {
     width: 100%;
-    #map{
+
+    #map {
       width: 100%;
+    }
+
   }
-  
-  }
-  .form-container{
+
+  .form-container {
     flex-direction: column;
     padding: 0;
+
     form {
       width: 100%;
       padding: 5px;
     }
   }
 }
+
 // media query de pagina de servicios//
 @media only screen and (max-width: 480px) {
-  .main-services{
+  .main-services {
     padding: 5px;
   }
-  .heading-services{
+
+  .heading-services {
     height: 200px;
   }
-  .services-container{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100px 0.90fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr;
-  margin: 0 auto;
-  gap: 0px 0px;
-  grid-auto-flow: column;
-  grid-template-areas:
-    "heading-services"
-    "services-content1"
-    "img-services1"
-    "services-content2"
-    "img-services2 "
-    "services-content3 "
-    "img-content3";
-  border: 0.5px solid $main-color;
-  &:hover {
-    box-shadow: $boxshadow-color;
-  }
-  .contents__services{
-    justify-content: center;
+
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 0.90fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr;
     margin: 0 auto;
-    h1{
-      padding:0;
-      text-align: center;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "heading-services"
+      "services-content1"
+      "img-services1"
+      "services-content2"
+      "img-services2 "
+      "services-content3 "
+      "img-content3";
+    border: 0.5px solid $main-color;
+
+    &:hover {
+      box-shadow: $boxshadow-color;
     }
-    p{
-      padding: 0;
+
+    .contents__services {
+      justify-content: center;
+      margin: 0 auto;
+
+      h1 {
+        padding: 0;
+        text-align: center;
+      }
+
+      p {
+        padding: 0;
+      }
     }
   }
 }
-}
+
 // media query de contacto//
-@media only screen and (max-width: 768px){
-  .form-container{
+@media only screen and (max-width: 768px) {
+  .form-container {
     flex-direction: column;
-    form{
+
+    form {
       width: 100%;
     }
   }
-  .mapa{
+
+  .mapa {
     height: auto;
     width: 100%;
     margin: 0 auto;
-    iframe{
+
+    iframe {
       width: 100%;
       height: 100%;
     }
