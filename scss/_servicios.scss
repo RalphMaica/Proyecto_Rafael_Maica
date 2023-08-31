@@ -5,9 +5,7 @@
   padding: 40px;
 }
 .heading-services {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexcenter;
   flex-direction: column;
   span {
     color: $span-color;
